@@ -14,7 +14,7 @@ namespace PharmacyManagementSystem
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = LAPTOP-855N7P54;database=MyPharmacy;integrated security = True";
+            con.ConnectionString = " ";
             return con;
         }
 
